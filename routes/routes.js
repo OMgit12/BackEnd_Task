@@ -7,10 +7,10 @@ const login = require('../controller/login')
 
 
 router.post('/login', login.login)
-router.get('/Register', login.Register)
-router.get('/forgotPassword', login.forgotPassword)
-router.get('/changePassword', login.changePassword)
-router.get('/EditProfile', login.EditProfile)
+router.post('/Register', login.Register)
+router.post('/forgotPassword', login.forgotPassword)
+router.post('/changePassword', login.changePassword)
+router.post('/EditProfile', login.EditProfile)
 
 
 module.exports = router
